@@ -2,12 +2,12 @@
 (text-field
 :name "clintid"
 :label "Enter ClientId"
-:placeholder "Please enter your clintId hear")
+:placeholder "Enter your clintId hear")
  
 (password-field
 :name "clintsecret"
 :label "Enter ClientSecret"
-:placeholder "Please enter your clintSecret hear"))
+:placeholder "Enter your clintSecret hear"))
 
 
 (oauth2/refresh-token-with-client_credentials
